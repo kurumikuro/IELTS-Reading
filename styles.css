@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blank {
+  padding: 5px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.incorrect {
+  background-color: red;
+  color: white;
+}
+
+#score {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.prov {
+  text-align: center;
+  font-size: smaller;
+}
